@@ -44,7 +44,8 @@ const MainPage = () => {
 
     return (
         <div className={style.wrapper}>
-            <div className={style.side}><SideComponent data={data} onClick={selectBird} selectedId={selectedData?.name}/>
+            {/* eslint-disable-next-line no-undef */}
+            <div className={style.side}><SideComponent data={data} onClick={selectBirdError} selectedId={selectedData?.name}/>
                 {data.length && <div ref={ref} className={style.loading}>loading</div>}
             </div>
             <div className={style.detail}>{selectedData &&
