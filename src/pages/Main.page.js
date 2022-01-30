@@ -26,6 +26,7 @@ const MainPage = () => {
     }, [])
 
     const selectBird = (name) => {
+        throw new Error("THIS IS AN ERROR")
         const bird = data.find(d => d.name === name)
         setSelectedData(bird)
     }
