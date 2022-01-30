@@ -1,0 +1,24 @@
+.wrapper{
+  width: fit-content;
+  display: flex;
+  margin: 0 auto;
+}
+
+
+.detail {
+  margin-left: 200px;
+  width: 500px;
+}
+
+.side {
+  overflow: scroll;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+.loading {
+  margin-top: 10px;
+}
+
